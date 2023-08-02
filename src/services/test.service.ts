@@ -2,7 +2,7 @@ import axios from "axios";
 
 class TestService {
   BASE_URL: string;
-  responseMap: { [path: string]: any };
+  responseMap: { [path: string]: any; } | undefined;
 
   constructor() {
     this.BASE_URL = "https://reqres.in/api/";
