@@ -14,7 +14,7 @@
     <template #icon>
       <q-icon name="fas fa-clipboard" color="primary" />
     </template>
-    <template #heading>Requrements</template>
+    <template #heading>Requirements</template>
 
     <q-list dense>
       <q-item clickable v-ripple>
